@@ -1,7 +1,7 @@
 #meme-image-container {
   height: 500px;
   border: solid black 1px;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   width: 500px;
   position: relative;
 }
@@ -11,22 +11,23 @@
   top: 50px;
   left: 50px;
   font-size: 30px;
-  text-shadow: rgb(0, 0, 0) 5px 5px 5px;
-  color: rgb(255, 255, 255);
+  text-shadow: black 5px 5px 5px;
+  color: white;
 }
 
 #meme-image {
   height: 500px;
-
   width: 500px;
 }
 
 #fire {
   background-color: red;
 }
+
 #water {
   background-color: blue;
 }
+
 #earth {
   background-color: green;
 }

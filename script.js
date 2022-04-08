@@ -16,9 +16,6 @@ const meme4 = document.getElementById('meme-4');
 function changeText() {
   paragraf.innerText = insertText.value;
 }
-
-// Add texto ao meme ^
-
 function bkgdSet() {
   canvas.src = URL.createObjectURL(btnI.files[0]);
 }
